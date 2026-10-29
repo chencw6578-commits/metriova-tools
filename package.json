@@ -1,0 +1,43 @@
+{
+  "name": "metriova-formulas",
+  "version": "1.0.0",
+  "description": "Pure TypeScript calculation formulas for finance, health and construction — the engine behind metriova.net's 54 online calculators.",
+  "license": "MIT",
+  "author": "C. W. Chen",
+  "homepage": "https://www.metriova.net",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chencw6578-commits/metriova-tools.git"
+  },
+  "keywords": [
+    "calculator",
+    "formulas",
+    "finance",
+    "mortgage",
+    "bmi",
+    "compound-interest",
+    "typescript",
+    "zero-dependency"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}
