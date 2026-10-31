@@ -1,4 +1,4 @@
-import { CalculationResult, ScheduleItem } from '../types';
+import { CalculationResult, ScheduleItem } from '../types.js';
 
 export const calculateLoan = (inputs: Record<string, number>): CalculationResult => {
   const loanAmount = inputs.loanAmount ?? 10000;

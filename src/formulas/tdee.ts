@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 export const calculateTdee = (inputs: Record<string, number>): CalculationResult => {
   const weight = inputs.weight ?? 70;

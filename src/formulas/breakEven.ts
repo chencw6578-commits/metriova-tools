@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 export const calculateBreakEven = (inputs: Record<string, number>): CalculationResult => {
   const fixedCosts = inputs.fixedCosts ?? 0;

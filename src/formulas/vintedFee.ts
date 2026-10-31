@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 /**
  * Vinted — seller-side calculator with a buyer-fee range model.

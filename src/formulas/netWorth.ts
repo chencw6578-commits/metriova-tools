@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 export const calculateNetWorth = (inputs: Record<string, number>): CalculationResult => {
   const cashAssets = inputs.cashAssets ?? 0;

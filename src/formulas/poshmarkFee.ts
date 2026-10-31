@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 /**
  * Poshmark — US seller fee & profit calculator.

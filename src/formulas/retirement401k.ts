@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 export const calculate401k = (inputs: Record<string, number>): CalculationResult => {
   const currentAge = inputs.currentAge ?? 30;

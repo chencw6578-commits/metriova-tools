@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 export const calculateRentVsBuy = (inputs: Record<string, number>): CalculationResult => {
   const homePrice = inputs.homePrice ?? 300000;

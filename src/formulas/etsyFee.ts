@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 /**
  * Etsy — multi-market fee & profit calculator.

@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 export const calculateRoofPitch = (inputs: Record<string, number>): CalculationResult => {
   const rise = inputs.rise ?? 4;

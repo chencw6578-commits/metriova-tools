@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 export const calculateBMR = (inputs: Record<string, number>): CalculationResult => {
   const gender = Math.round(inputs.gender ?? 0);

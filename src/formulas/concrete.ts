@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 export const calculateConcrete = (inputs: Record<string, number>): CalculationResult => {
   const slabLength = inputs.slabLength ?? 4;

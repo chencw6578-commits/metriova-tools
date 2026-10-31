@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 export const calculateMulch = (inputs: Record<string, number>): CalculationResult => {
   const areaLength = inputs.mulchLength ?? 10; // meters

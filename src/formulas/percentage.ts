@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 export const calculatePercentage = (inputs: Record<string, number>): CalculationResult => {
   const mode = inputs.mode ?? 0;

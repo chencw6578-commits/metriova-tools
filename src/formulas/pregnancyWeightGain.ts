@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 export const calculatePregnancyWeightGain = (inputs: Record<string, number>): CalculationResult => {
   const preWeight = inputs.preWeight ?? 65; // kg

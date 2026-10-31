@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 // Realistic base hours per size category (based on real tattoo industry data)
 // Tiny (matchbook): 0.5–1.5 hr  | Small (palm): 1–3 hr  | Medium (hand): 2–5 hr

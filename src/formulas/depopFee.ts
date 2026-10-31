@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 /**
  * Depop — US seller calculator with a buyer-side lens.

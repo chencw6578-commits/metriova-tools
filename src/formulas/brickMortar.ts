@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 export const calculateBrickMortar = (inputs: Record<string, number>): CalculationResult => {
   const wallLength = inputs.wallLength ?? 5;

@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 export const calculateDate = (inputs: Record<string, number>): CalculationResult => {
   const mode = Math.round(inputs.mode ?? 0); // 0=Days Between, 1=Add Days

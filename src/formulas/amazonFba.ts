@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 /**
  * Amazon FBA — multi-market profit calculator.

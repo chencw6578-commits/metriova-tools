@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 // Progressive income tax brackets by country (2025/26 public rates).
 // US: 2025 federal single-filer brackets. UK: 2025/26. DE: 2025 (Grundtarif). FR: 2025 (métropole).

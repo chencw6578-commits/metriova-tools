@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 export const calculateIdealWeight = (inputs: Record<string, number>): CalculationResult => {
   const gender = Math.round(inputs.gender ?? 0); // 0=Male, 1=Female

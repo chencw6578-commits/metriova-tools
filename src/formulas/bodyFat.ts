@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 export const calculateBodyFat = (inputs: Record<string, number>): CalculationResult => {
   const gender = inputs.gender ?? 0; // 0 = male, 1 = female (consistent with all other health calculators)

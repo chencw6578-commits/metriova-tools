@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 export const calculateTip = (inputs: Record<string, number>): CalculationResult => {
   const billAmount = inputs.billAmount ?? 50;

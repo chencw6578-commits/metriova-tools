@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 export const calculateDeckMaterial = (inputs: Record<string, number>): CalculationResult => {
   const deckLength = inputs.deckLength ?? 12; // feet

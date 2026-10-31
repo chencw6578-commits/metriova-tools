@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 /** Convert minutes from midnight to readable "HH:MM" time string */
 function formatTimeString(totalMinutes: number): string {

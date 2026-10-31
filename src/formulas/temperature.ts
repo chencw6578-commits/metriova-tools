@@ -1,5 +1,5 @@
-import { CalculationResult } from '../types';
-import type { InputType } from '../types';
+import { CalculationResult } from '../types.js';
+import type { InputType } from '../types.js';
 
 export const calculateTemperature = (inputs: Record<string, number>): CalculationResult => {
   const value = inputs.value ?? 100;

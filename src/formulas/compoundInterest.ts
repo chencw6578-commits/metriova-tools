@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 export const calculateCompoundInterest = (inputs: Record<string, number>): CalculationResult => {
   const initialBalance = inputs.initialBalance ?? 0;

@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 export const calculateRefinance = (inputs: Record<string, number>): CalculationResult => {
   const currentBalance = inputs.currentBalance ?? 250000;

@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 export const calculateWallPaint = (inputs: Record<string, number>): CalculationResult => {
   const length = inputs.length ?? 6;

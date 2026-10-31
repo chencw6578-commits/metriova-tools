@@ -1,4 +1,4 @@
-import { CalculationResult } from '../types';
+import { CalculationResult } from '../types.js';
 
 export const calculateHeartRate = (inputs: Record<string, number>): CalculationResult => {
   const age = inputs.age ?? 30;
